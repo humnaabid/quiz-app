@@ -1,0 +1,54 @@
+.question{
+    border: 2px solid grey;
+    border-radius: 40px;
+    padding: 20px;
+    width: 50%;
+    margin: 10px;
+    text-align: justify;
+    color: navy;
+    
+    
+}
+input{
+    padding: 20px;
+    margin: 9px;
+    
+
+
+}
+h1{
+    text-decoration: underline;
+    color: indianred;
+
+}
+.main{
+    border: indigo double 3px;
+    border-radius: 10px;
+    background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2017/iq.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: cadetblue;
+}
+button{
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+    border: solid black 2px;
+}
+button:hover{
+    background-color: indigo;
+   
+
+}
+@media only screen and (max-width: 600px){
+    .main{
+     background-image: none;
+     background-color: paleturquoise;
+     
+    }
+    .question{
+        color: black;
+    }
+  }
